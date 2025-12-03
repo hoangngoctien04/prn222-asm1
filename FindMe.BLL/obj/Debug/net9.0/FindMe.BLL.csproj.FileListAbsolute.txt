@@ -1,0 +1,16 @@
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.BLL\bin\Debug\net9.0\FindMe.BLL.deps.json
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.BLL\bin\Debug\net9.0\FindMe.BLL.dll
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.BLL\bin\Debug\net9.0\FindMe.BLL.pdb
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.BLL\bin\Debug\net9.0\FindMe.DAL.dll
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.BLL\bin\Debug\net9.0\FindMe.DAL.pdb
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\FindMe.BLL.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\FindMe.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\FindMe.BLL.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\FindMe.BLL.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\FindMe.BLL.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\FindMe.BLL.sourcelink.json
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\FindMe.BLL.csproj.Up2Date
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\FindMe.BLL.dll
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\refint\FindMe.BLL.dll
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\FindMe.BLL.pdb
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\ref\FindMe.BLL.dll

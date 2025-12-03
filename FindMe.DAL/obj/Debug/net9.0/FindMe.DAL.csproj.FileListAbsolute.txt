@@ -1,0 +1,15 @@
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.DAL\bin\Debug\net9.0\FindMe.DAL.deps.json
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.DAL\bin\Debug\net9.0\FindMe.DAL.runtimeconfig.json
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.DAL\bin\Debug\net9.0\FindMe.DAL.dll
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.DAL\bin\Debug\net9.0\FindMe.DAL.pdb
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\FindMe.DAL.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\FindMe.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\FindMe.DAL.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\FindMe.DAL.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\FindMe.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\FindMe.DAL.sourcelink.json
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\FindMe.DAL.dll
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\refint\FindMe.DAL.dll
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\FindMe.DAL.pdb
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\FindMe.DAL.genruntimeconfig.cache
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\ref\FindMe.DAL.dll
