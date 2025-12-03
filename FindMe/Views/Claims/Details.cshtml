@@ -1,0 +1,41 @@
+@model FindMe.DAL.Models.Claim
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Claim</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.ClaimerName)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.ClaimerName)</dd>
+
+        <dt class="col-sm-2">Item</dt>
+        <dd class="col-sm-10">@Model.Item?.Title</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.ClaimStatus)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.ClaimStatus)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.ClaimReason)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.ClaimReason)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.ClaimSubmittedAt)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.ClaimSubmittedAt)</dd>
+    </dl>
+</div>
+
+<div>
+    @if (Model.ClaimStatus == FindMe.DAL.Models.ClaimStatus.Pending)
+    {
+        <form asp-action="Approve" asp-route-id="@Model.ClaimId" method="post" style="display:inline;">
+            <button type="submit" class="btn btn-success">Approve</button>
+        </form>
+        <form asp-action="Reject" asp-route-id="@Model.ClaimId" method="post" style="display:inline;">
+            <button type="submit" class="btn btn-danger">Reject</button>
+        </form>
+    }
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>

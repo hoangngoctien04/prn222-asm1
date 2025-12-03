@@ -15,6 +15,8 @@ builder.Services.AddDbContext<FindMeDbContext>(options =>
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped(typeof(IService<>), typeof(Service<>));
+builder.Services.AddScoped<IItemService, ItemService>();
+builder.Services.AddScoped<IClaimService, ClaimService>();
 
 var app = builder.Build();
 

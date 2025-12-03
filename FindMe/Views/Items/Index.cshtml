@@ -1,0 +1,69 @@
+@model IEnumerable<FindMe.DAL.Models.Item>
+
+@{
+
+    ViewData["Title"] = "Items";
+
+}
+
+<h1>Items</h1>
+
+<p>
+
+    <a asp-action="Create">Create New</a>
+
+</p>
+
+<table class="table">
+
+    <thead>
+
+        <tr>
+
+            <th>@Html.DisplayNameFor(model => model.Title)</th>
+
+            <th>@Html.DisplayNameFor(model => model.ReportType)</th>
+
+            <th>@Html.DisplayNameFor(model => model.Status)</th>
+
+            <th>@Html.DisplayNameFor(model => model.ReportedAt)</th>
+
+            <th>Actions</th>
+
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+
+        {
+
+            <tr>
+
+                <td>@Html.DisplayFor(modelItem => item.Title)</td>
+
+                <td>@Html.DisplayFor(modelItem => item.ReportType)</td>
+
+                <td>@Html.DisplayFor(modelItem => item.Status)</td>
+
+                <td>@Html.DisplayFor(modelItem => item.ReportedAt)</td>
+
+                <td>
+
+                    <a asp-action="Details" asp-route-id="@item.ItemId">Details</a> |
+
+                    <a asp-action="Edit" asp-route-id="@item.ItemId">Edit</a> |
+
+                    <a asp-action="Delete" asp-route-id="@item.ItemId">Delete</a>
+
+                </td>
+
+            </tr>
+
+        }
+
+    </tbody>
+
+</table>

@@ -31,6 +31,37 @@ public partial class FindMeDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        // Enum conversions
+        modelBuilder.Entity<Item>()
+            .Property(e => e.ReportType)
+            .HasConversion(
+                v => v.ToString(),
+                v => (ReportType)Enum.Parse(typeof(ReportType), v));
+
+        modelBuilder.Entity<Item>()
+            .Property(e => e.Status)
+            .HasConversion(
+                v => v.ToString(),
+                v => (ItemStatus)Enum.Parse(typeof(ItemStatus), v));
+
+        modelBuilder.Entity<Claim>()
+            .Property(e => e.ClaimStatus)
+            .HasConversion(
+                v => v.ToString(),
+                v => (ClaimStatus)Enum.Parse(typeof(ClaimStatus), v));
+
+        modelBuilder.Entity<ItemHistory>()
+            .Property(e => e.FromStatus)
+            .HasConversion(
+                v => v.HasValue ? v.Value.ToString() : null,
+                v => string.IsNullOrEmpty(v) ? null : (ItemStatus?)Enum.Parse(typeof(ItemStatus), v));
+
+        modelBuilder.Entity<ItemHistory>()
+            .Property(e => e.ToStatus)
+            .HasConversion(
+                v => v.ToString(),
+                v => (ItemStatus)Enum.Parse(typeof(ItemStatus), v));
+
         modelBuilder.Entity<Account>(entity =>
         {
             entity.HasKey(e => e.AccountId).HasName("PK__Account__349DA5A6360EFA65");
@@ -69,8 +100,7 @@ public partial class FindMeDbContext : DbContext
             entity.HasIndex(e => e.ClaimStatus, "IX_Claim_Status");
 
             entity.Property(e => e.ClaimStatus)
-                .HasMaxLength(50)
-                .HasDefaultValue("Pending");
+                .HasMaxLength(50);
             entity.Property(e => e.ClaimSubmittedAt).HasDefaultValueSql("(getdate())");
             entity.Property(e => e.ClaimerEmail).HasMaxLength(255);
             entity.Property(e => e.ClaimerName).HasMaxLength(200);
@@ -126,8 +156,7 @@ public partial class FindMeDbContext : DbContext
             entity.Property(e => e.ReportType).HasMaxLength(20);
             entity.Property(e => e.ReportedAt).HasDefaultValueSql("(getdate())");
             entity.Property(e => e.Status)
-                .HasMaxLength(50)
-                .HasDefaultValue("Pending");
+                .HasMaxLength(50);
             entity.Property(e => e.StorageCode).HasMaxLength(100);
             entity.Property(e => e.Title).HasMaxLength(250);
 

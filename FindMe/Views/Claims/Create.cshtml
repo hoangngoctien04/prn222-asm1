@@ -1,0 +1,70 @@
+@model FindMe.DAL.Models.Claim
+
+@{
+    ViewData["Title"] = "Create Claim";
+}
+
+<h1>Create Claim</h1>
+
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="ItemId" class="control-label"></label>
+                <select asp-for="ItemId" class="form-control" asp-items="ViewBag.ItemId"></select>
+                <span asp-validation-for="ItemId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ClaimerAccountId" class="control-label"></label>
+                <select asp-for="ClaimerAccountId" class="form-control" asp-items="ViewBag.ClaimerAccountId"></select>
+                <span asp-validation-for="ClaimerAccountId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ClaimerName" class="control-label"></label>
+                <input asp-for="ClaimerName" class="form-control" />
+                <span asp-validation-for="ClaimerName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ClaimerPhone" class="control-label"></label>
+                <input asp-for="ClaimerPhone" class="form-control" />
+                <span asp-validation-for="ClaimerPhone" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ClaimerEmail" class="control-label"></label>
+                <input asp-for="ClaimerEmail" class="form-control" />
+                <span asp-validation-for="ClaimerEmail" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ClaimReason" class="control-label"></label>
+                <textarea asp-for="ClaimReason" class="form-control"></textarea>
+                <span asp-validation-for="ClaimReason" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="mediaFile" class="control-label">Media</label>
+                <input type="file" name="mediaFile" class="form-control" accept="image/*" />
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -3,6 +3,10 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">FindMe - Lost & Found System</h1>
+    <p>Manage lost and found items efficiently.</p>
+    <div>
+        <a asp-controller="Items" asp-action="Index" class="btn btn-primary">Manage Items</a>
+        <a asp-controller="Claims" asp-action="Index" class="btn btn-secondary">Manage Claims</a>
+    </div>
 </div>

@@ -21,7 +21,7 @@ public partial class Claim
 
     public DateTime ClaimSubmittedAt { get; set; }
 
-    public string ClaimStatus { get; set; } = null!;
+    public ClaimStatus ClaimStatus { get; set; }
 
     public int? AssignedOfficerId { get; set; }
 

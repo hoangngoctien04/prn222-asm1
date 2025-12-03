@@ -1,0 +1,37 @@
+@model IEnumerable<FindMe.DAL.Models.Claim>
+
+@{
+    ViewData["Title"] = "Claims";
+}
+
+<h1>Claims</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.ClaimerName)</th>
+            <th>Item</th>
+            <th>@Html.DisplayNameFor(model => model.ClaimStatus)</th>
+            <th>@Html.DisplayNameFor(model => model.ClaimSubmittedAt)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var claim in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => claim.ClaimerName)</td>
+                <td>@claim.Item?.Title</td>
+                <td>@Html.DisplayFor(modelItem => claim.ClaimStatus)</td>
+                <td>@Html.DisplayFor(modelItem => claim.ClaimSubmittedAt)</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@claim.ClaimId">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

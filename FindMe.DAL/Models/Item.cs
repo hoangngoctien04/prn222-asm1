@@ -13,7 +13,7 @@ public partial class Item
 
     public int? ReporterAccountId { get; set; }
 
-    public string ReportType { get; set; } = null!;
+    public ReportType ReportType { get; set; }
 
     public string Title { get; set; } = null!;
 
@@ -23,7 +23,7 @@ public partial class Item
 
     public DateTime ReportedAt { get; set; }
 
-    public string Status { get; set; } = null!;
+    public ItemStatus Status { get; set; }
 
     public string? StorageCode { get; set; }
 

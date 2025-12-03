@@ -1,0 +1,89 @@
+@model FindMe.DAL.Models.Item
+
+@{
+
+    ViewData["Title"] = "Details";
+
+}
+
+<h1>Details</h1>
+
+<div>
+
+    <h4>Item</h4>
+
+    <hr />
+
+    <dl class="row">
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Title)</dt>
+
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Title)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.ReportType)</dt>
+
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.ReportType)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Status)</dt>
+
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Status)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Description)</dt>
+
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Description)</dd>
+
+        <dt class="col-sm-2">Image</dt>
+
+        <dd class="col-sm-10">
+
+            @if (!string.IsNullOrEmpty(Model.ImagePath))
+
+            {
+
+                <img src="@Model.ImagePath" alt="Item Image" style="max-width: 200px;" />
+
+            }
+
+        </dd>
+
+    </dl>
+
+</div>
+
+<div>
+
+    @if (Model.Status == FindMe.DAL.Models.ItemStatus.Pending)
+
+    {
+
+        <form asp-action="Verify" asp-route-id="@Model.ItemId" method="post" style="display:inline;">
+
+            <button type="submit" class="btn btn-success">Verify</button>
+
+        </form>
+
+    }
+
+    @if (Model.Status == FindMe.DAL.Models.ItemStatus.Verified)
+
+    {
+
+        <form asp-action="Claim" asp-route-id="@Model.ItemId" method="post" style="display:inline;">
+
+            <button type="submit" class="btn btn-warning">Mark as Claimed</button>
+
+        </form>
+
+        <form asp-action="Return" asp-route-id="@Model.ItemId" method="post" style="display:inline;">
+
+            <button type="submit" class="btn btn-info">Mark as Returned</button>
+
+        </form>
+
+    }
+
+    <a asp-action="Edit" asp-route-id="@Model.ItemId" class="btn btn-primary">Edit</a> |
+
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+
+</div>

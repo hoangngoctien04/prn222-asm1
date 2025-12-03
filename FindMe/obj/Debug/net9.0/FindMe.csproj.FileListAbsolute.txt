@@ -136,3 +136,4 @@ C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe\obj\Debug\net9.0\r
 C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe\obj\Debug\net9.0\FindMe.pdb
 C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe\obj\Debug\net9.0\FindMe.genruntimeconfig.cache
 C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe\obj\Debug\net9.0\ref\FindMe.dll
+C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

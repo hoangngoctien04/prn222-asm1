@@ -11,9 +11,9 @@ public partial class ItemHistory
 
     public int? ChangedByAccountId { get; set; }
 
-    public string? FromStatus { get; set; }
+    public ItemStatus? FromStatus { get; set; }
 
-    public string ToStatus { get; set; } = null!;
+    public ItemStatus ToStatus { get; set; }
 
     public string? Note { get; set; }
 
