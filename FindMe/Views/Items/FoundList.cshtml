@@ -1,0 +1,23 @@
+﻿@model IEnumerable<FindMe.DAL.Models.Item>
+@{
+    ViewData["Title"] = "Found Items";
+}
+
+<h2>Found Items</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Reported At</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Title</td>
+            <td>@item.Description</td>
+            <td>@item.ReportedAt</td>
+        </tr>
+    }
+</table>

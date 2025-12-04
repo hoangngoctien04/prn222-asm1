@@ -2764,23 +2764,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
+    "C:\\Users\\MACBOOK\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PRN222-ASM1\\prn222-asm1\\FindMe.BLL\\FindMe.BLL.csproj",
+      "projectUniqueName": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe.BLL\\FindMe.BLL.csproj",
       "projectName": "FindMe.BLL",
-      "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PRN222-ASM1\\prn222-asm1\\FindMe.BLL\\FindMe.BLL.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PRN222-ASM1\\prn222-asm1\\FindMe.BLL\\obj\\",
+      "projectPath": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe.BLL\\FindMe.BLL.csproj",
+      "packagesPath": "C:\\Users\\MACBOOK\\.nuget\\packages\\",
+      "outputPath": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MACBOOK\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2789,15 +2789,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\ASUS\\OneDrive\\Desktop\\PRN222-ASM1\\prn222-asm1\\FindMe.DAL\\FindMe.DAL.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PRN222-ASM1\\prn222-asm1\\FindMe.DAL\\FindMe.DAL.csproj"
+            "C:\\PRN222\\B3W\\prn222-asm1\\FindMe.DAL\\FindMe.DAL.csproj": {
+              "projectPath": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe.DAL\\FindMe.DAL.csproj"
             }
           }
         }
@@ -2833,7 +2832,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

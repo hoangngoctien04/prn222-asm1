@@ -1,0 +1,30 @@
+﻿@model FindMe.DAL.Models.Item
+@{
+        ViewData["Title"] = "Report Found Item";
+}
+
+<h2>Report Found Item</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label>Title</label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Description</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label>Identifiers</label>
+        <input asp-for="Identifiers" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>CampusId</label>
+        <input asp-for="CampusId" class="form-control" />
+    </div>
+
+    <button class="btn btn-success">Submit</button>
+</form>

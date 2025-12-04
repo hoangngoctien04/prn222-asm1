@@ -1,5 +1,4 @@
 using FindMe.BLL.Interfaces;
-using FindMe.BLL.Services;
 using FindMe.DAL.Interfaces;
 using FindMe.DAL.Models;
 
@@ -8,10 +7,12 @@ namespace FindMe.BLL.Services
     public class ItemService : Service<Item>, IItemService
     {
         private readonly IRepository<ItemHistory> _historyRepository;
+        private readonly IITemRepository _itemRepository;
 
-        public ItemService(IRepository<Item> repository, IRepository<ItemHistory> historyRepository) : base(repository)
+        public ItemService(IRepository<Item> repository, IRepository<ItemHistory> historyRepository, IITemRepository itemRepository) : base(repository)
         {
             _historyRepository = historyRepository;
+            _itemRepository = itemRepository;
         }
 
         public void UpdateStatus(int itemId, ItemStatus newStatus, int? changedById, string? note)
@@ -35,6 +36,16 @@ namespace FindMe.BLL.Services
                 };
                 _historyRepository.Add(history);
             }
+        }
+
+        public IEnumerable<Item> GetFoundItems()
+        {
+            return _itemRepository.GetFoundItems();
+        }
+
+        public IEnumerable<Item> GetLostItems()
+        {
+            return _itemRepository.GetLostItems();
         }
     }
 }
