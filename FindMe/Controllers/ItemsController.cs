@@ -91,21 +91,17 @@ namespace FindMe.Controllers
 
         // GET: Item/Report/LostItem
         [HttpGet]
-        public IActionResult RepostLost()
+        public IActionResult ReportLost()
         {
-            return View(new Item
-            {
-                ReportType = ReportType.Lost,
-                ReportedAt = DateTime.Now
-            });
+            return View(new Item());
         }
 
-        // POST: Item/Report/LostItem/List
         [HttpPost]
-        public IActionResult RepostLost(Item item)
+        public IActionResult ReportLost(Item item)
         {
-            if (!ModelState.IsValid) return View(item);
-            
+            if (!ModelState.IsValid)
+                return View(item);
+
             item.ReportType = ReportType.Lost;
             item.ReportedAt = DateTime.Now;
             item.Status = ItemStatus.Pending;
@@ -121,22 +117,18 @@ namespace FindMe.Controllers
             return View(list);
         }
 
-        // GET: Item/Report/FoundItem
+        // POST: Item/Report/LostItem/List
         [HttpGet]
-        public IActionResult RepostFound()
+        public IActionResult ReportFound()
         {
-            return View(new Item
-            {
-                ReportType = ReportType.Found,
-                ReportedAt = DateTime.Now
-            });
+            return View(new Item());
         }
 
-        // POST: Item/Report/LostItem/List
         [HttpPost]
-        public IActionResult RepostFound(Item item)
+        public IActionResult ReportFound(Item item)
         {
-            if (!ModelState.IsValid) return View(item);
+            if (!ModelState.IsValid)
+                return View(item);
 
             item.ReportType = ReportType.Found;
             item.ReportedAt = DateTime.Now;

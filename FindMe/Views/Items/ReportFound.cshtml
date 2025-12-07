@@ -3,28 +3,84 @@
         ViewData["Title"] = "Report Found Item";
 }
 
-<h2>Report Found Item</h2>
+<style>
+    .report-container {
+        max-width: 800px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 25px;
+        border-radius: 14px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        font-family: "Segoe UI", sans-serif;
+    }
 
-<form method="post">
-    <div class="mb-3">
-        <label>Title</label>
-        <input asp-for="Title" class="form-control" />
-    </div>
+    .report-title {
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #28a745;
+    }
 
-    <div class="mb-3">
-        <label>Description</label>
-        <textarea asp-for="Description" class="form-control"></textarea>
-    </div>
+    .form-label {
+        font-weight: 600;
+        margin-top: 14px;
+    }
 
-    <div class="mb-3">
-        <label>Identifiers</label>
-        <input asp-for="Identifiers" class="form-control" />
-    </div>
+    .form-input, .form-select, .form-textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 6px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+    }
 
-    <div class="mb-3">
-        <label>CampusId</label>
-        <input asp-for="CampusId" class="form-control" />
-    </div>
+    .form-textarea {
+        height: 110px;
+    }
 
-    <button class="btn btn-success">Submit</button>
-</form>
+    .submit-btn {
+        margin-top: 20px;
+        width: 100%;
+        padding: 14px;
+        font-size: 17px;
+        background: #28a745;
+        border: none;
+        color: white;
+        border-radius: 10px;
+    }
+
+        .submit-btn:hover {
+            background: #1e7e34;
+        }
+</style>
+
+<div class="report-container">
+    <h2 class="report-title">Báo Nhặt Được</h2>
+
+    <form asp-action="ReportFound" method="post" enctype="multipart/form-data">
+
+        <label class="form-label">Campus</label>
+        <select asp-for="CampusId" class="form-select" asp-items="ViewBag.CampusList"></select>
+
+        <label class="form-label">Vị trí nhặt được</label>
+        <select asp-for="LocationId" class="form-select" asp-items="ViewBag.LocationList"></select>
+
+        <label class="form-label">Tiêu đề</label>
+        <input asp-for="Title" class="form-input" />
+
+        <label class="form-label">Mô tả</label>
+        <textarea asp-for="Description" class="form-textarea"></textarea>
+
+        <label class="form-label">Đặc điểm nhận dạng</label>
+        <input asp-for="Identifiers" class="form-input" />
+
+        <label class="form-label">Hình ảnh</label>
+        <input type="file" name="imageFile" class="form-input" />
+
+        <input type="hidden" asp-for="ReportType" value="Found" />
+        <input type="hidden" asp-for="Status" value="Pending" />
+
+        <button class="submit-btn">Gửi báo cáo</button>
+    </form>
+</div>

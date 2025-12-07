@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FindMe.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ba785ebfb317998df0605b236ad9494066df689")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+babe49be6e1e31b1ac9cd0b4c36c7b605b5f4002")]
 [assembly: System.Reflection.AssemblyProductAttribute("FindMe.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FindMe.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
