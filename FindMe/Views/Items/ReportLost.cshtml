@@ -1,0 +1,82 @@
+﻿@model FindMe.DAL.Models.Item
+@{
+    ViewData["Title"] = "Report Lost Item";
+}
+
+
+<style>
+    .report-container {
+        max-width: 800px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 25px;
+        border-radius: 14px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        font-family: "Segoe UI", sans-serif;
+    }
+    .report-title {
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .form-label {
+        font-weight: 600;
+        margin-top: 14px;
+    }
+    .form-input, .form-select, .form-textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 6px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+    }
+    .form-textarea {
+        height: 110px;
+    }
+    .submit-btn {
+        margin-top: 20px;
+        width: 100%;
+        padding: 14px;
+        font-size: 17px;
+        background: #d9534f;
+        border: none;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .submit-btn:hover {
+        background: #c9302c;
+    }
+</style>
+
+<div class="report-container">
+    <h2 class="report-title">Báo Mất Đồ</h2>
+
+    <form asp-action="ReportLost" method="post" enctype="multipart/form-data">
+
+        <label class="form-label">Campus</label>
+        <select asp-for="CampusId" class="form-select" asp-items="ViewBag.CampusList"></select>
+
+        <label class="form-label">Vị trí cụ thể</label>
+        <select asp-for="LocationId" class="form-select" asp-items="ViewBag.LocationList"></select>
+
+        <label class="form-label">Tiêu đề</label>
+        <input asp-for="Title" class="form-input" />
+
+        <label class="form-label">Mô tả</label>
+        <textarea asp-for="Description" class="form-textarea"></textarea>
+
+        <label class="form-label">Đặc điểm nhận dạng</label>
+        <input asp-for="Identifiers" class="form-input" />
+
+        <label class="form-label">Hình ảnh</label>
+        <input type="file" name="imageFile" class="form-input" />
+
+        <input type="hidden" asp-for="ReportType" value="Lost" />
+        <input type="hidden" asp-for="Status" value="Pending" />
+
+        <button class="submit-btn">Gửi báo cáo</button>
+    </form>
+</div>
+

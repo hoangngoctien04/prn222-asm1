@@ -1,7 +1,52 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PRN222-ASM1\\prn222-asm1\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\PRN222\\B3W\\prn222-asm1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F71D28-52F6-458E-AAE7-0A1228443D4B}|FindMe\\FindMe.csproj|c:\\prn222\\b3w\\prn222-asm1\\findme\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0F71D28-52F6-458E-AAE7-0A1228443D4B}|FindMe\\FindMe.csproj|solutionrelative:findme\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0379AD89-B12A-4046-B872-A8945D28C279}|FindMe.BLL\\FindMe.BLL.csproj|c:\\prn222\\b3w\\prn222-asm1\\findme.bll\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0379AD89-B12A-4046-B872-A8945D28C279}|FindMe.BLL\\FindMe.BLL.csproj|solutionrelative:findme.bll\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F71D28-52F6-458E-AAE7-0A1228443D4B}|FindMe\\FindMe.csproj|c:\\prn222\\b3w\\prn222-asm1\\findme\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0F71D28-52F6-458E-AAE7-0A1228443D4B}|FindMe\\FindMe.csproj|solutionrelative:findme\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F71D28-52F6-458E-AAE7-0A1228443D4B}|FindMe\\FindMe.csproj|c:\\prn222\\b3w\\prn222-asm1\\findme\\views\\items\\reportlost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0F71D28-52F6-458E-AAE7-0A1228443D4B}|FindMe\\FindMe.csproj|solutionrelative:findme\\views\\items\\reportlost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F71D28-52F6-458E-AAE7-0A1228443D4B}|FindMe\\FindMe.csproj|c:\\prn222\\b3w\\prn222-asm1\\findme\\views\\items\\reportfound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0F71D28-52F6-458E-AAE7-0A1228443D4B}|FindMe\\FindMe.csproj|solutionrelative:findme\\views\\items\\reportfound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F71D28-52F6-458E-AAE7-0A1228443D4B}|FindMe\\FindMe.csproj|c:\\prn222\\b3w\\prn222-asm1\\findme\\views\\items\\lostlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0F71D28-52F6-458E-AAE7-0A1228443D4B}|FindMe\\FindMe.csproj|solutionrelative:findme\\views\\items\\lostlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F71D28-52F6-458E-AAE7-0A1228443D4B}|FindMe\\FindMe.csproj|c:\\prn222\\b3w\\prn222-asm1\\findme\\views\\items\\foundlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0F71D28-52F6-458E-AAE7-0A1228443D4B}|FindMe\\FindMe.csproj|solutionrelative:findme\\views\\items\\foundlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0379AD89-B12A-4046-B872-A8945D28C279}|FindMe.BLL\\FindMe.BLL.csproj|c:\\prn222\\b3w\\prn222-asm1\\findme.bll\\interfaces\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0379AD89-B12A-4046-B872-A8945D28C279}|FindMe.BLL\\FindMe.BLL.csproj|solutionrelative:findme.bll\\interfaces\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B95D22-B03F-4176-A91A-72A412AD9F2E}|FindMe.DAL\\FindMe.DAL.csproj|c:\\prn222\\b3w\\prn222-asm1\\findme.dal\\repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B95D22-B03F-4176-A91A-72A412AD9F2E}|FindMe.DAL\\FindMe.DAL.csproj|solutionrelative:findme.dal\\repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B95D22-B03F-4176-A91A-72A412AD9F2E}|FindMe.DAL\\FindMe.DAL.csproj|c:\\prn222\\b3w\\prn222-asm1\\findme.dal\\interfaces\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B95D22-B03F-4176-A91A-72A412AD9F2E}|FindMe.DAL\\FindMe.DAL.csproj|solutionrelative:findme.dal\\interfaces\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B95D22-B03F-4176-A91A-72A412AD9F2E}|FindMe.DAL\\FindMe.DAL.csproj|c:\\prn222\\b3w\\prn222-asm1\\findme.dal\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B95D22-B03F-4176-A91A-72A412AD9F2E}|FindMe.DAL\\FindMe.DAL.csproj|solutionrelative:findme.dal\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,43 +54,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -53,7 +70,208 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe\\Program.cs",
+              "RelativeDocumentMoniker": "FindMe\\Program.cs",
+              "ToolTip": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe\\Program.cs",
+              "RelativeToolTip": "FindMe\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T19:22:27.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FoundList.cshtml",
+              "DocumentMoniker": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe\\Views\\Items\\FoundList.cshtml",
+              "RelativeDocumentMoniker": "FindMe\\Views\\Items\\FoundList.cshtml",
+              "ToolTip": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe\\Views\\Items\\FoundList.cshtml",
+              "RelativeToolTip": "FindMe\\Views\\Items\\FoundList.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAwwDoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T10:51:28.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LostList.cshtml",
+              "DocumentMoniker": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe\\Views\\Items\\LostList.cshtml",
+              "RelativeDocumentMoniker": "FindMe\\Views\\Items\\LostList.cshtml",
+              "ToolTip": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe\\Views\\Items\\LostList.cshtml",
+              "RelativeToolTip": "FindMe\\Views\\Items\\LostList.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADoAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T10:51:04.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReportFound.cshtml",
+              "DocumentMoniker": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe\\Views\\Items\\ReportFound.cshtml",
+              "RelativeDocumentMoniker": "FindMe\\Views\\Items\\ReportFound.cshtml",
+              "ToolTip": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe\\Views\\Items\\ReportFound.cshtml",
+              "RelativeToolTip": "FindMe\\Views\\Items\\ReportFound.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T10:50:29.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReportLost.cshtml",
+              "DocumentMoniker": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe\\Views\\Items\\ReportLost.cshtml",
+              "RelativeDocumentMoniker": "FindMe\\Views\\Items\\ReportLost.cshtml",
+              "ToolTip": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe\\Views\\Items\\ReportLost.cshtml",
+              "RelativeToolTip": "FindMe\\Views\\Items\\ReportLost.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAFAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T10:50:04.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemsController.cs",
+              "DocumentMoniker": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe\\Controllers\\ItemsController.cs",
+              "RelativeDocumentMoniker": "FindMe\\Controllers\\ItemsController.cs",
+              "ToolTip": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe\\Controllers\\ItemsController.cs",
+              "RelativeToolTip": "FindMe\\Controllers\\ItemsController.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAwwJEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T10:42:16.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemService.cs",
+              "DocumentMoniker": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe.BLL\\Services\\ItemService.cs",
+              "RelativeDocumentMoniker": "FindMe.BLL\\Services\\ItemService.cs",
+              "ToolTip": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe.BLL\\Services\\ItemService.cs",
+              "RelativeToolTip": "FindMe.BLL\\Services\\ItemService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T10:38:41.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IItemService.cs",
+              "DocumentMoniker": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe.BLL\\Interfaces\\IItemService.cs",
+              "RelativeDocumentMoniker": "FindMe.BLL\\Interfaces\\IItemService.cs",
+              "ToolTip": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe.BLL\\Interfaces\\IItemService.cs",
+              "RelativeToolTip": "FindMe.BLL\\Interfaces\\IItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T10:38:26.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ItemRepository.cs",
+              "DocumentMoniker": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe.DAL\\Repositories\\ItemRepository.cs",
+              "RelativeDocumentMoniker": "FindMe.DAL\\Repositories\\ItemRepository.cs",
+              "ToolTip": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe.DAL\\Repositories\\ItemRepository.cs",
+              "RelativeToolTip": "FindMe.DAL\\Repositories\\ItemRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T10:38:06.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IITemRepository.cs",
+              "DocumentMoniker": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe.DAL\\Interfaces\\IITemRepository.cs",
+              "RelativeDocumentMoniker": "FindMe.DAL\\Interfaces\\IITemRepository.cs",
+              "ToolTip": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe.DAL\\Interfaces\\IITemRepository.cs",
+              "RelativeToolTip": "FindMe.DAL\\Interfaces\\IITemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T10:37:57.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe.DAL\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "FindMe.DAL\\Models\\Item.cs",
+              "ToolTip": "C:\\PRN222\\B3W\\prn222-asm1\\FindMe.DAL\\Models\\Item.cs",
+              "RelativeToolTip": "FindMe.DAL\\Models\\Item.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwB0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T10:24:01.519Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             }
           ]
         }

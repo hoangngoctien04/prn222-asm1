@@ -1,0 +1,65 @@
+﻿@model IEnumerable<FindMe.DAL.Models.Item>
+@{
+    ViewData["Title"] = "Found Items";
+}
+
+<style>
+    .list-container {
+        max-width: 1000px;
+        margin: 40px auto;
+        font-family: "Segoe UI";
+    }
+
+    .list-title {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 25px;
+        text-align: center;
+        color: #28a745;
+    }
+
+    .item-card {
+        background: #edfff0;
+        padding: 18px;
+        border-radius: 12px;
+        border: 1px solid #b5dfc4;
+        margin-bottom: 15px;
+        display: flex;
+        gap: 20px;
+    }
+
+    .item-img {
+        width: 140px;
+        height: 140px;
+        border-radius: 12px;
+        object-fit: cover;
+    }
+
+    .item-info h3 {
+        margin: 0;
+    }
+
+    .label-found {
+        color: #28a745;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+</style>
+
+<div class="list-container">
+    <h2 class="list-title">Danh sách đồ nhặt được</h2>
+
+    @foreach (var item in Model)
+    {
+        <div class="item-card">
+            <img class="item-img" src="@item.ImagePath" />
+
+            <div class="item-info">
+                <h3>@item.Title</h3>
+                <div class="label-found">Nhặt tại: @item.Location?.LocationId</div>
+                <p>Ngày báo: @item.ReportedAt.ToString("dd/MM/yyyy")</p>
+                <p>@item.Description</p>
+            </div>
+        </div>
+    }
+</div>

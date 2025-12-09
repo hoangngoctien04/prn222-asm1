@@ -89,6 +89,62 @@ namespace FindMe.Controllers
             return View(item);
         }
 
+        // GET: Item/Report/LostItem
+        [HttpGet]
+        public IActionResult ReportLost()
+        {
+            return View(new Item());
+        }
+
+        [HttpPost]
+        public IActionResult ReportLost(Item item)
+        {
+            if (!ModelState.IsValid)
+                return View(item);
+
+            item.ReportType = ReportType.Lost;
+            item.ReportedAt = DateTime.Now;
+            item.Status = ItemStatus.Pending;
+
+            _itemService.Add(item);
+
+            return RedirectToAction("LostList");
+        }
+
+        public IActionResult LostList()
+        {
+            var list = _itemService.GetLostItems();
+            return View(list);
+        }
+
+        // POST: Item/Report/LostItem/List
+        [HttpGet]
+        public IActionResult ReportFound()
+        {
+            return View(new Item());
+        }
+
+        [HttpPost]
+        public IActionResult ReportFound(Item item)
+        {
+            if (!ModelState.IsValid)
+                return View(item);
+
+            item.ReportType = ReportType.Found;
+            item.ReportedAt = DateTime.Now;
+            item.Status = ItemStatus.Pending;
+
+            _itemService.Add(item);
+
+            return RedirectToAction("FoundList");
+        }
+
+        public IActionResult FoundList()
+        {
+            var list = _itemService.GetFoundItems();
+            return View(list);
+        }
+
         // POST: Items/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
