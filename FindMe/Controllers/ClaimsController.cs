@@ -69,7 +69,7 @@ namespace FindMe.Controllers
 
             claim.ClaimVerifications = verifications;
 
-            // ====== DANH SÁCH OFFICER ======
+            // ====== DANH SÁCH OFFICER =====
             var officers = _accountService
                 .GetAll()
                 .Where(a => a.Role == "SecurityOfficer" && a.IsActive)

@@ -17,7 +17,7 @@ public partial class ClaimVerification
 
     public string? ActionNote { get; set; }
 
-    public DateTime ActionAt { get; set; }
+    public DateTime ActionAt { get; set; }   
 
     public virtual Claim Claim { get; set; } = null!;
 
