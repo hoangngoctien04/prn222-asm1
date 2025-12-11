@@ -9,7 +9,7 @@ public partial class ClaimVerification
 
     public int ClaimId { get; set; }
 
-    public int OfficerId { get; set; }
+    public int OfficerId { get; set; }   
 
     public string? ClaimMediaPath { get; set; }
 

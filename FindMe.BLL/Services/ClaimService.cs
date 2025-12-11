@@ -32,9 +32,9 @@ namespace FindMe.BLL.Services
                 throw new ArgumentException($"Claim {claimId} không tồn tại.", nameof(claimId));
             }
 
-            // ==========================
+            // ======================
             // 1. Cập nhật claim hiện tại
-            // ==========================
+            // ======================
             claim.ClaimStatus = newStatus;
 
             if (officerId.HasValue)
