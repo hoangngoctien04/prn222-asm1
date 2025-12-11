@@ -30,7 +30,7 @@ namespace FindMe.BLL.Services
             if (claim == null)
             {
                 throw new ArgumentException($"Claim {claimId} không tồn tại.", nameof(claimId));
-            }
+            }   
 
             // ======================
             // 1. Cập nhật claim hiện tại
