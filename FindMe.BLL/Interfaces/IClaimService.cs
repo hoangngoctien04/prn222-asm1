@@ -5,6 +5,6 @@ namespace FindMe.BLL.Interfaces
 {
     public interface IClaimService : IService<Claim>
     {
-        void UpdateStatus(int claimId, ClaimStatus newStatus, int? officerId, string? action, string? mediaPath);
+        void UpdateStatus(int claimId, ClaimStatus newStatus, int? officerId, string? action, string? mediaPath, string? note);
     }
 }

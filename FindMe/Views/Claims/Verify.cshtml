@@ -1,0 +1,92 @@
+﻿@model FindMe.DAL.Models.Claim
+
+@{
+    ViewData["Title"] = "Xác minh thông tin claim";
+}
+
+<h1>Xác minh thông tin claim #@Model.ClaimId</h1>
+
+<hr />
+
+<h4>Thông tin người nhận & item</h4>
+
+<dl class="row">
+    <dt class="col-sm-2">Người claim</dt>
+    <dd class="col-sm-10">@Model.ClaimerName (@Model.ClaimerEmail, @Model.ClaimerPhone)</dd>
+
+    <dt class="col-sm-2">Item</dt>
+    <dd class="col-sm-10">
+        @Model.Item?.Title - @Model.Item?.Description
+    </dd>
+
+    <dt class="col-sm-2">Lý do claim</dt>
+    <dd class="col-sm-10">@Model.ClaimReason</dd>
+
+    <dt class="col-sm-2">Trạng thái hiện tại</dt>
+    <dd class="col-sm-10">@Model.ClaimStatus</dd>
+</dl>
+
+@if (Model.ClaimVerifications != null && Model.ClaimVerifications.Any())
+{
+    <h4>Lịch sử xác minh</h4>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Thời gian</th>
+                <th>Officer</th>
+                <th>Hành động</th>
+                <th>Ghi chú</th>
+                <th>File</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var v in Model.ClaimVerifications.OrderByDescending(x => x.ActionAt))
+            {
+                <tr>
+                    <td>@v.ActionAt</td>
+                    <td>@v.Officer.FullName</td>
+                    <td>@v.Action</td>
+                    <td>@v.ActionNote</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(v.ClaimMediaPath))
+                        {
+                            <a href="@v.ClaimMediaPath" target="_blank">Xem</a>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<h4>Bước xác minh</h4>
+
+<form asp-action="Verify" asp-route-id="@Model.ClaimId" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label>Officer phụ trách</label>
+        <select name="officerId" class="form-control" asp-items="ViewBag.Officers"></select>
+    </div>
+
+    <div class="form-group mt-2">
+        <label>Quyết định</label><br />
+        <label class="me-3">
+            <input type="radio" name="decision" value="approve" checked /> Approve
+        </label>
+        <label>
+            <input type="radio" name="decision" value="reject" /> Reject
+        </label>
+    </div>
+
+    <div class="form-group mt-2">
+        <label>Ghi chú xác minh</label>
+        <textarea name="note" class="form-control" rows="3"></textarea>
+    </div>
+
+    <div class="form-group mt-2">
+        <label>File bằng chứng (ảnh, pdf...)</label>
+        <input type="file" name="mediaFile" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Lưu kết quả xác minh</button>
+    <a asp-action="Details" asp-route-id="@Model.ClaimId" class="btn btn-secondary mt-3">Quay lại Details</a>
+</form>
