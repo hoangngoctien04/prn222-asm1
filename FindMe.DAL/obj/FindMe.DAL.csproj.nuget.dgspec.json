@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\OneDrive\\Desktop\\PRN222-ASM1\\prn222-asm1\\FindMe.DAL\\FindMe.DAL.csproj": {}
+    "D:\\PRN 3W\\prn222-asm1\\FindMe.DAL\\FindMe.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\OneDrive\\Desktop\\PRN222-ASM1\\prn222-asm1\\FindMe.DAL\\FindMe.DAL.csproj": {
+    "D:\\PRN 3W\\prn222-asm1\\FindMe.DAL\\FindMe.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PRN222-ASM1\\prn222-asm1\\FindMe.DAL\\FindMe.DAL.csproj",
+        "projectUniqueName": "D:\\PRN 3W\\prn222-asm1\\FindMe.DAL\\FindMe.DAL.csproj",
         "projectName": "FindMe.DAL",
-        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PRN222-ASM1\\prn222-asm1\\FindMe.DAL\\FindMe.DAL.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PRN222-ASM1\\prn222-asm1\\FindMe.DAL\\obj\\",
+        "projectPath": "D:\\PRN 3W\\prn222-asm1\\FindMe.DAL\\FindMe.DAL.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "D:\\PRN 3W\\prn222-asm1\\FindMe.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -78,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

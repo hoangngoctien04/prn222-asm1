@@ -13,7 +13,9 @@ public partial class ClaimVerification
 
     public string? ClaimMediaPath { get; set; }
 
-    public string? Note { get; set; }
+    public string Action { get; set; } = null!;
+
+    public string? ActionNote { get; set; }
 
     public DateTime ActionAt { get; set; }
 

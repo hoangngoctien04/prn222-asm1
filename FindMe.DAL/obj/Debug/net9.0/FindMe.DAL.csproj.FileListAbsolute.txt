@@ -13,3 +13,18 @@ C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.DAL\obj\Debug\net9
 C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\FindMe.DAL.pdb
 C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\FindMe.DAL.genruntimeconfig.cache
 C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\ref\FindMe.DAL.dll
+D:\PRN 3W\prn222-asm1\FindMe.DAL\bin\Debug\net9.0\FindMe.DAL.deps.json
+D:\PRN 3W\prn222-asm1\FindMe.DAL\bin\Debug\net9.0\FindMe.DAL.runtimeconfig.json
+D:\PRN 3W\prn222-asm1\FindMe.DAL\bin\Debug\net9.0\FindMe.DAL.dll
+D:\PRN 3W\prn222-asm1\FindMe.DAL\bin\Debug\net9.0\FindMe.DAL.pdb
+D:\PRN 3W\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\FindMe.DAL.csproj.AssemblyReference.cache
+D:\PRN 3W\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\FindMe.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN 3W\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\FindMe.DAL.AssemblyInfoInputs.cache
+D:\PRN 3W\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\FindMe.DAL.AssemblyInfo.cs
+D:\PRN 3W\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\FindMe.DAL.csproj.CoreCompileInputs.cache
+D:\PRN 3W\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\FindMe.DAL.sourcelink.json
+D:\PRN 3W\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\FindMe.DAL.dll
+D:\PRN 3W\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\refint\FindMe.DAL.dll
+D:\PRN 3W\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\FindMe.DAL.pdb
+D:\PRN 3W\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\FindMe.DAL.genruntimeconfig.cache
+D:\PRN 3W\prn222-asm1\FindMe.DAL\obj\Debug\net9.0\ref\FindMe.DAL.dll

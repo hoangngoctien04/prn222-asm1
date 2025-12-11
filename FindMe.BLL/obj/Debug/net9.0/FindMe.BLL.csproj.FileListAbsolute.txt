@@ -14,3 +14,19 @@ C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.BLL\obj\Debug\net9
 C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\refint\FindMe.BLL.dll
 C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\FindMe.BLL.pdb
 C:\Users\ASUS\OneDrive\Desktop\PRN222-ASM1\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\ref\FindMe.BLL.dll
+D:\PRN 3W\prn222-asm1\FindMe.BLL\bin\Debug\net9.0\FindMe.BLL.deps.json
+D:\PRN 3W\prn222-asm1\FindMe.BLL\bin\Debug\net9.0\FindMe.BLL.dll
+D:\PRN 3W\prn222-asm1\FindMe.BLL\bin\Debug\net9.0\FindMe.BLL.pdb
+D:\PRN 3W\prn222-asm1\FindMe.BLL\bin\Debug\net9.0\FindMe.DAL.dll
+D:\PRN 3W\prn222-asm1\FindMe.BLL\bin\Debug\net9.0\FindMe.DAL.pdb
+D:\PRN 3W\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\FindMe.BLL.csproj.AssemblyReference.cache
+D:\PRN 3W\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\FindMe.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN 3W\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\FindMe.BLL.AssemblyInfoInputs.cache
+D:\PRN 3W\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\FindMe.BLL.AssemblyInfo.cs
+D:\PRN 3W\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\FindMe.BLL.csproj.CoreCompileInputs.cache
+D:\PRN 3W\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\FindMe.BLL.sourcelink.json
+D:\PRN 3W\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\FindMe.BLL.csproj.Up2Date
+D:\PRN 3W\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\FindMe.BLL.dll
+D:\PRN 3W\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\refint\FindMe.BLL.dll
+D:\PRN 3W\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\FindMe.BLL.pdb
+D:\PRN 3W\prn222-asm1\FindMe.BLL\obj\Debug\net9.0\ref\FindMe.BLL.dll
